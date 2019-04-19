@@ -4,8 +4,8 @@
 
 echo "Please enter a number: "
 read N
-COUNTER=N
-while COUNTER<=N
+COUNTER=1
+while [ $COUNTER -le $N ]
 do
 	echo $COUNTER
 	COUNTER=$[$COUNTER+1]
